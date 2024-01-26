@@ -58,3 +58,10 @@ $id = '1 UNION SELECT IF(
 -- if username's first is a then the fn benchmark executes a slow process 5 million times otherwise it finishes quickly.
 -- attcker can go through the entire alphabet in a loop to determine the full username
 ```
+### Prepared Statement
+```sql
+SET @sql = "SELET * FROM articles WHERE title = ?"; -- ? indicates a placeholder for dynamic data
+PREPARE stmt FROM @sql; -- converting it into a prepared statement
+EXECUTE stmt USING @query; -- adds a value as input and executes the statement
+```
+
