@@ -8,7 +8,7 @@ It is not the only code injection form but the most common one.
 It is the top security threat to web applications.
 It's easy for attackers to detect and exploit.
 
-Know more about sqli with some [examples](sql-injections.md).
+Know more about sqli with some [examples](https://github.com/AI0560-Ananya/SQLI/blob/main/sql-injections.md).
 
 ## Solutions to SQL Injection
 - Limit the application's database privileges
@@ -22,5 +22,5 @@ Render every single qoute in the data harmless by putting a backslach in front o
 
 ## Use SQL prepared statements
 - Data must match a specified datat type
-- Data can't interfere [more..](preparedstatement.md)
+- Data can't interfere [more..](https://github.com/AI0560-Ananya/SQLI/blob/main/sql-injections.md#prepared-statement)
 - Use allow-lists to validate data before using it in a query.
